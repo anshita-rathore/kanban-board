@@ -1,8 +1,8 @@
 import express from "express";
-import Board from "../models/board.js";
+import Board from "../models/Board.js";
 import {protect} from "../middleware/auth.js";
-import Card from "../models/card.js";
-import List from "../models/list.js";
+import Card from "../models/Card.js";
+import List from "../models/List.js";
 
 const router = express.Router();
 router.use(protect);
