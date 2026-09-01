@@ -1,0 +1,12 @@
+/* board.css */
+.board-screen a { display: block; padding: 32px 0 8px 72px; color: var(--olive); font-size: 18px; text-decoration: none; }
+.board-screen h1 { font-size: 30px; font-weight: 500; margin: 0 72px 20px; }
+.board-lists { display: flex; gap: 16px; padding: 0 72px 32px; align-items: flex-start; overflow-x: auto; margin-top: 8px; }
+.list-col { background: var(--card); border-radius: 16px; padding: 14px; width: 230px; flex-shrink: 0; }
+.list-head { display: flex; justify-content: space-between; align-items: center; font-weight: 600; margin-bottom: 10px; }
+.list-head button { color: var(--olive); font-size: 20px; }
+.list-cards { display: flex; flex-direction: column; gap: 8px; }
+.kanban-card { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; cursor: pointer; width: 100%; min-height: 20px; }
+.list-col > button, .add-card-btn { color: var(--olive); font-size: 15px; margin-top: 10px; text-align: left; padding: 4px 0; }
+.add-list-col { border: 1px solid var(--olive); border-radius: 8px; padding: 8px 16px; height: fit-content; align-self: flex-start; margin-top: 8px; }
+.add-list-btn { color: var(--olive); font-size: 13px; }

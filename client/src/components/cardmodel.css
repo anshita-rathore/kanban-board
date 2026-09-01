@@ -1,0 +1,9 @@
+.modal-backdrop { position: fixed; inset: 0; background: rgba(27,33,26,0.15); display: flex; align-items: center; justify-content: center; padding: 24px; }
+.modal-card { background: var(--card); border-radius: 18px; padding: 24px; width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 10px; }
+.modal-title-input { font-weight: 600; font-size: 18px; background: none; border: none; padding: 0; margin-bottom: 4px; }
+.modal-desc-input, .modal-date-input { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-size: 13px; color: var(--dark); }
+.modal-actions { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; }
+.modal-actions-right { display: flex; gap: 8px; }
+.modal-delete { border: 1px solid var(--line); border-radius: 8px; padding: 6px 14px; font-size: 13px; color: var(--danger); }
+.modal-cancel { border: 1px solid var(--line); border-radius: 8px; padding: 6px 14px; font-size: 13px; color: var(--dark); }
+.modal-save { background: var(--dark); color: var(--bg); border-radius: 8px; padding: 6px 14px; font-size: 13px; }

@@ -1,0 +1,12 @@
+:root {
+  --bg: #F9F7F1;
+  --card: #F0EDE4;
+  --dark: #1B211A;
+  --line: #d8d4c8;
+  --olive: #628141;
+  --danger: #a34a3a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--dark); font-family: 'DM Sans', sans-serif; }
+button { cursor: pointer; font-family: inherit; border: none; background: none; }
+input, textarea { font-family: inherit; }
