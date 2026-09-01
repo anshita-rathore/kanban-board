@@ -16,7 +16,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const dbURL = process.env.MONGO_URI;
 
-app.use(cors({ origin: "https://kanban-board-1710ebat1-anshita-rathore.vercel.app" }));
+app.use(cors({ origin: "https://kanban-board-sigma-swart.vercel.app" }));
 app.use(express.json());
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.path}`, req.body);
